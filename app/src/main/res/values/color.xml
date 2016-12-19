@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF5722</color>
+    <color name="primary_dark">#E64A19</color>
+    <color name="primary_light">#FFCCBC</color>
+    <color name="accent">#03A9F4</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="spinner">#EEEEEE</color>
+    <color name="snack">#0f27d7</color>
+    <color name="back">#fa764c</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FFB41822</color>
+    <color name="refresh_progress_1">#F44336</color>
+    <color name="refresh_progress_2">#42A5F5</color>
+    <color name="refresh_progress_3">#CDDC39</color>
+
+
+
+
+    <color name="invalid">#f44336</color>
+    <color name="valid">#4caf50</color>
+
+    <color name="fab_dialpad">#4CAF50</color>
+
+    <color name="window_background_light">#fafafa</color>
+    <color name="window_background_dark">#303030</color>
+
+</resources>

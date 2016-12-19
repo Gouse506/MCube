@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MCube</string>
+
+    <string name="update">Update</string>
+    <string name="google_app_id">305656196217</string>
+    <string name="followup">Add Followup</string>
+    <string name="Listfollowup">List Followup</string>
+    <string name="call">Call</string>
+    <string name="sms">Sms</string>
+    <string name="email">Email</string>
+    <string name="signout">SignOut</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="text_dismiss">DISMISS</string>
+    <string name="title_activity_home">MCube</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="Lead">Lead</string>
+    <string name="FollowUp">FollowUp</string>
+    <string name="Ivrs">Ivrs</string>
+    <string name="Settings">Settings</string>
+    <string name="Track">Track</string>
+    <string name="X">MCubeX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Logout">Logout</string>
+    <string name="text_tryAgain">TRY AGAIN</string>
+    <string name="mtracker">MTracker</string>
+    <string name="title_activity_detail">Detail</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="payU">Payment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

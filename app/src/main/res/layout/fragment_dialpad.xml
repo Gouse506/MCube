@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dial_fab_margin"
+        android:src="@drawable/call"
+        app:backgroundTint="@color/fab_dialpad"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/dialpad"
+        layout="@layout/dialpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fab_dial"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:id="@+id/phone_number_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dialpad"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="+91"
+            android:textSize="@dimen/font_display1" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="sans-serif-light"
+            android:maxLength="14"
+            android:maxLines="1"
+            android:gravity="center"
+            android:digits="0123456789"
+            android:scrollHorizontally="true"
+            android:textSize="@dimen/font_display1"
+            android:textStyle="bold">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/backspace"
+            style="?android:borderlessButtonStyle"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_backspace" />
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/dialpad"
+        android:background="#cecfcb" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/my_id1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/track"
+            android:icon="@drawable/ic_track"
+            android:title="@string/Track" />
+        <item
+            android:id="@+id/ivrs"
+            android:icon="@drawable/ic_ivrs"
+            android:title="@string/Ivrs" />
+        <item
+            android:id="@+id/x"
+            android:icon="@drawable/ic_x"
+            android:title="@string/X" />
+        <item
+            android:id="@+id/lead"
+            android:icon="@drawable/ic_lead"
+            android:title="@string/Lead" />
+
+        <item
+            android:id="@+id/mtracker"
+            android:icon="@drawable/ic_mtrack"
+            android:title="@string/mtracker" />
+        <item
+            android:id="@+id/followup"
+            android:icon="@drawable/ic_followup"
+            android:title="@string/FollowUp" />
+
+        <item
+            android:id="@+id/payU"
+            android:icon="@drawable/ic_rupee_indian"
+            android:title="@string/payU" />
+
+
+    </group>
+    <group
+        android:id="@+id/my_id"
+        android:checkableBehavior="single">
+        <item android:title="Preferences">
+            <menu>
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_setting"
+                    android:title="@string/Settings" />
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="@string/Logout" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

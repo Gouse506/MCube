@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_port"
+    tools:context=".fragment.MakePayment">
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:background="@drawable/view_background"
+        android:orientation="vertical"
+        android:paddingLeft="4dip"
+        android:paddingRight="4dip"
+        android:paddingTop="20dip">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_margin="10dp"
+            android:src="@drawable/logo"
+            app:civ_border_color="#f27d60"
+            app:civ_border_width="3dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="MCube Payment"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Name"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+
+        <!--  Email Label -->
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Phone Number"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/user_payAmt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Payable Amount"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/user_Invoice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_background"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:hint="Invoice Number"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="16sp" />
+
+        <!-- Signup Button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_payNow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="34dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="40dip"
+            android:background="@drawable/button_background"
+            android:padding="12dip"
+            android:text="Pay Now"
+            android:textColor="@color/icons"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
